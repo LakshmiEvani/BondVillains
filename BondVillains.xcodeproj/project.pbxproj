@@ -16,6 +16,8 @@
 		87F179531CC9211A005D8638 /* BondVillainsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F179521CC9211A005D8638 /* BondVillainsUITests.swift */; };
 		87F179611CC95835005D8638 /* VillainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F179601CC95835005D8638 /* VillainDetailViewController.swift */; };
 		87F179631CC9584A005D8638 /* Villain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F179621CC9584A005D8638 /* Villain.swift */; };
+		87F179651CCBBBE2005D8638 /* VillainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F179641CCBBBE2005D8638 /* VillainCollectionViewController.swift */; };
+		87F179671CCBBBFF005D8638 /* VillainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F179661CCBBBFF005D8638 /* VillainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		87F179541CC9211A005D8638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F179601CC95835005D8638 /* VillainDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainDetailViewController.swift; sourceTree = "<group>"; };
 		87F179621CC9584A005D8638 /* Villain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villain.swift; sourceTree = "<group>"; };
+		87F179641CCBBBE2005D8638 /* VillainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewController.swift; sourceTree = "<group>"; };
+		87F179661CCBBBFF005D8638 /* VillainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				87F179391CC9211A005D8638 /* Assets.xcassets */,
 				87F1793B1CC9211A005D8638 /* LaunchScreen.storyboard */,
 				87F1793E1CC9211A005D8638 /* Info.plist */,
+				87F179641CCBBBE2005D8638 /* VillainCollectionViewController.swift */,
+				87F179661CCBBBFF005D8638 /* VillainCollectionViewCell.swift */,
 			);
 			path = BondVillains;
 			sourceTree = "<group>";
@@ -264,8 +270,10 @@
 			files = (
 				87F179351CC9211A005D8638 /* ViewController.swift in Sources */,
 				87F179331CC9211A005D8638 /* AppDelegate.swift in Sources */,
+				87F179671CCBBBFF005D8638 /* VillainCollectionViewCell.swift in Sources */,
 				87F179611CC95835005D8638 /* VillainDetailViewController.swift in Sources */,
 				87F179631CC9584A005D8638 /* Villain.swift in Sources */,
+				87F179651CCBBBE2005D8638 /* VillainCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +498,7 @@
 				87F179591CC9211A005D8638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87F1795A1CC9211A005D8638 /* Build configuration list for PBXNativeTarget "BondVillainsTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				87F1795C1CC9211A005D8638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87F1795D1CC9211A005D8638 /* Build configuration list for PBXNativeTarget "BondVillainsUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				87F1795F1CC9211A005D8638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
