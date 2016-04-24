@@ -9,9 +9,12 @@
 import Foundation
 import UIKit
 
-class VillainCollectionViewController: UICollectionViewController {
+class VillainCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
     //TODO: Add outlet to flowLayout here.
+    
+    @IBOutlet var flowLayout: UICollectionViewFlowLayout!
+
     
     // Get ahold of some villains, for the table
     // This is an array of Villain instances
@@ -21,6 +24,19 @@ class VillainCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         
         //TODO: Implement flowLayout here.
+        flowLayOut()
+       
+    }
+    
+    
+    func flowLayOut(){
+        
+        let space: CGFloat = 1.0
+        let dimension = (view.frame.size.width - (2 * space)) / 2.0
+        
+        flowLayout?.minimumInteritemSpacing = space
+         flowLayout?.minimumLineSpacing = space
+        flowLayout?.itemSize = CGSizeMake(dimension, dimension)
     }
     
     override func viewWillAppear(animated: Bool) {

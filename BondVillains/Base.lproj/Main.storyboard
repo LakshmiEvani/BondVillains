@@ -125,34 +125,33 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKy-X4-yhC">
-                                            <rect key="frame" x="15" y="20" width="47" height="22"/>
+                                            <rect key="frame" x="15" y="7" width="85" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="47" id="KYA-Go-GmH"/>
-                                                <constraint firstAttribute="height" constant="22" id="Lmf-tg-8N8"/>
+                                                <constraint firstAttribute="width" constant="85" id="bax-pB-42B"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tUA-y5-6I0">
-                                            <rect key="frame" x="-3" y="-53" width="320" height="568"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6VB-ae-P2b">
+                                            <rect key="frame" x="211" y="19" width="71" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="65" id="GA0-1E-tUJ"/>
+                                                <constraint firstAttribute="width" constant="80" id="SNb-sB-r1V"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="aKy-X4-yhC" firstAttribute="centerX" secondItem="u8O-GU-fOv" secondAttribute="centerX" id="6MO-1U-1ld"/>
-                                    <constraint firstItem="aKy-X4-yhC" firstAttribute="leading" secondItem="u8O-GU-fOv" secondAttribute="leadingMargin" constant="7" id="Jva-Eb-Gqg"/>
-                                    <constraint firstItem="tUA-y5-6I0" firstAttribute="top" secondItem="u8O-GU-fOv" secondAttribute="topMargin" constant="7" id="Nnc-DA-o3J"/>
-                                    <constraint firstItem="tUA-y5-6I0" firstAttribute="width" secondItem="u8O-GU-fOv" secondAttribute="width" constant="80" id="ONw-AZ-lKe"/>
-                                    <constraint firstItem="tUA-y5-6I0" firstAttribute="centerX" secondItem="u8O-GU-fOv" secondAttribute="centerX" id="QR5-iQ-eOb"/>
-                                    <constraint firstItem="tUA-y5-6I0" firstAttribute="height" secondItem="u8O-GU-fOv" secondAttribute="height" constant="65" id="ft3-Vi-jec"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="tUA-y5-6I0" secondAttribute="bottom" constant="13" id="lz3-Ue-QxZ"/>
-                                    <constraint firstItem="aKy-X4-yhC" firstAttribute="top" secondItem="u8O-GU-fOv" secondAttribute="topMargin" constant="12" id="qoU-xY-hH5"/>
+                                    <constraint firstItem="aKy-X4-yhC" firstAttribute="top" secondItem="u8O-GU-fOv" secondAttribute="topMargin" constant="8" id="AYZ-nM-ArB"/>
+                                    <constraint firstItem="6VB-ae-P2b" firstAttribute="centerX" secondItem="u8O-GU-fOv" secondAttribute="centerX" id="C9s-UX-dWd"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="6VB-ae-P2b" secondAttribute="bottom" constant="13" id="fJA-MY-89Y"/>
+                                    <constraint firstItem="6VB-ae-P2b" firstAttribute="top" secondItem="aKy-X4-yhC" secondAttribute="bottom" constant="7" id="sPl-i5-Ll1"/>
+                                    <constraint firstItem="aKy-X4-yhC" firstAttribute="centerX" secondItem="u8O-GU-fOv" secondAttribute="centerX" id="tJN-8Y-lxY"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="nameLabel" destination="aKy-X4-yhC" id="5T9-XW-it0"/>
-                                    <outlet property="villainImageView" destination="tUA-y5-6I0" id="ZLq-WS-X5g"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -162,10 +161,13 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="bRc-Cg-1ag"/>
+                    <connections>
+                        <outlet property="collectionView" destination="8Pe-s9-laz" id="amG-5R-VJ0"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONO-Vv-a8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="160" y="1088"/>
+            <point key="canvasLocation" x="150" y="1088"/>
         </scene>
         <!--Table-->
         <scene sceneID="0qf-mp-GYC">

@@ -109,12 +109,12 @@
 				87F179341CC9211A005D8638 /* ViewController.swift */,
 				87F179601CC95835005D8638 /* VillainDetailViewController.swift */,
 				87F179621CC9584A005D8638 /* Villain.swift */,
+				87F179641CCBBBE2005D8638 /* VillainCollectionViewController.swift */,
+				87F179661CCBBBFF005D8638 /* VillainCollectionViewCell.swift */,
 				87F179361CC9211A005D8638 /* Main.storyboard */,
 				87F179391CC9211A005D8638 /* Assets.xcassets */,
 				87F1793B1CC9211A005D8638 /* LaunchScreen.storyboard */,
 				87F1793E1CC9211A005D8638 /* Info.plist */,
-				87F179641CCBBBE2005D8638 /* VillainCollectionViewController.swift */,
-				87F179661CCBBBFF005D8638 /* VillainCollectionViewCell.swift */,
 			);
 			path = BondVillains;
 			sourceTree = "<group>";
